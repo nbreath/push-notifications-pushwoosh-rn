@@ -1,0 +1,5 @@
+rootProject.name = 'PushTesting'
+include ':pushwoosh-react-native-plugin'
+project(':pushwoosh-react-native-plugin').projectDir = new File(rootProject.projectDir, '../node_modules/pushwoosh-react-native-plugin/src/android')
+
+include ':app'
